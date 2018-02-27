@@ -4,6 +4,7 @@ import { StickyContainer } from 'react-sticky';
 import Landing from './Landing.js'
 import Boards from './Boards.js'
 import About from './About.js'
+import Footer from './Footer.js'
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
                <Route exact path="/explore" component={Boards}/>
                <Route exact path="/quality" component={Boards}/>
                <Route exact path="/contact" component={Boards}/>
+               <Footer />
              </div>
           </BrowserRouter>
         </StickyContainer>

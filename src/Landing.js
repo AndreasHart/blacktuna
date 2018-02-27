@@ -36,7 +36,6 @@ class Landing extends Component {
               <div className='flex-center button '>Come see</div>
             </div>
           </div>
-
           <ParallaxBanner
              className="your-class"
              layers={[
