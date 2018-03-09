@@ -11,9 +11,9 @@
 }
 
 .logo {
-  height:100px;
+  height:150px;
   margin-left:50px;
-  width:100px;
+  width:150px;
   opacity: 1;
   border-radius: 50%;
   -webkit-transition: height 1s, width 1s;
@@ -24,6 +24,9 @@
 .logo:hover {
   height: 200px;
   width: 200px;
+  -webkit-animation:anything linear 1s infinite ;
+  -moz-animation:anything linear 1s infinite ;
+  animation:anything linear 1s infinite ;
 }
 
 .logo-container {
@@ -66,3 +69,11 @@
     width:60%;
   }
 }
+
+@keyframes anything {
+  0%   { transform: rotate(0deg); margin-top:5px; }
+  25% { transform: rotate(2.5deg);  margin-top: 0px;}
+  50% { transform: rotate(0deg); margin-top: -5px; }
+  100% { transform: rotate(-2.5deg);  margin-top: 0px;}
+}
+

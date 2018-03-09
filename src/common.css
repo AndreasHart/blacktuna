@@ -38,3 +38,7 @@ p {
   align-items: center;
   padding:3%;
 }
+
+a, u {
+    text-decoration: none;
+}
