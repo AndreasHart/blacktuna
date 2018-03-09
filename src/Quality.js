@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Quality.css';
+import './common.css';
 import Nav from './Nav'
 
 class Quality extends Component {
@@ -7,13 +8,23 @@ class Quality extends Component {
     return (
        <div>
         <Nav />
-        <div>
-          <h1>Black Tuna Surfboards</h1>
-          <h2>Halifax, Nova Scotia</h2>
-          <h4>by Chris Mathers</h4>
-        </div>
-        <div>
-          Quality
+        <div className={'other-header'}>
+          <h1>Quality</h1>
+          <h2>resin</h2>
+          <div className={'card-inner'}>
+            <p>We only use super sap eco friendly resin</p>
+            <img className={'img'} src="https://storage.googleapis.com/blacktuna/epoxy.jpg" alt=""/>
+          </div>
+          <h2>glass</h2>
+          <div className={'card-inner'}>
+            <p>This perfect AF glass</p>
+            <img className={'img'} src="https://storage.googleapis.com/blacktuna/glass.png" alt=""/>
+          </div>
+          <h2>attention to detail</h2>
+          <div className={'card-inner'}>
+            <p>We obsess over every detail</p>
+            <img className={'img'} src="https://storage.googleapis.com/blacktuna/detail.jpg" alt=""/>
+          </div>
         </div>
        </div>
 

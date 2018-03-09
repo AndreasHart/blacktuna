@@ -1,0 +1,39 @@
+.other-header {
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  -webkit-box-shadow: 0 7px 4px #777;
+  -moz-box-shadow: 0 7px 4px #777;
+  box-shadow: 0 7px 4px #777;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+  padding-left: 100px;
+  /*text-shadow: 1px 3px 0px #fff, 2px 5px 0px rgba(0,0,0,0.15);*/
+}
+
+h2 {
+  padding-left: 100px;
+  /*text-shadow: 1px 3px 0px #fff, 2px 5px 0px rgba(0,0,0,0.15);*/
+}
+
+h4 {
+  padding-left: 120px;
+  /*text-shadow: 1px 3px 0px #fff, 2px 5px 0px rgba(0,0,0,0.15);*/
+}
+
+p {
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

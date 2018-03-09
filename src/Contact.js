@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import './Explore.css';
+import './Contact.css';
+import './common.css';
 import Nav from './Nav'
 
-class Explore extends Component {
+class Contact extends Component {
   render() {
     return (
        <div>
         <Nav />
-        <div>
+        <div className={'other-header'}>
           <h1>Black Tuna Surfboards</h1>
           <h2>Halifax, Nova Scotia</h2>
           <h4>by Chris Mathers</h4>
         </div>
         <div>
-          Explore
+          Contact
         </div>
        </div>
 
@@ -21,4 +22,4 @@ class Explore extends Component {
   }
 }
 
-export default Explore;
+export default Contact;

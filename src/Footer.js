@@ -8,19 +8,6 @@ class Footer extends Component {
   render(){
     return (
        <div className="container">
-         <ParallaxBanner
-             className="your-class"
-             layers={[{
-              image: 'https://storage.googleapis.com/blacktuna/tuna-couch.jpg',
-              amount: .5,
-              slowerScrollRate: false,
-              }]}
-               style={{
-                   height: '400px',
-               }}
-             >
-
-          </ParallaxBanner>
           <div className="box">
             <div> Black Tuna Surfboards</div>
             <div>West St. Halifax</div>

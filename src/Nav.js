@@ -8,7 +8,7 @@ class Nav extends Component {
   render() {
     return (
        <div>
-        <Sticky topOffset={485}>
+        <Sticky topOffset={this.props.offset}>
           {
             ({
               style,

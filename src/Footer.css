@@ -5,15 +5,17 @@
 
 .box {
   position: relative;
+  padding:50px;
   display: flex;
   align-items: center;
   flex-direction: column;
   z-index: 100;
-  background-color: black;
   color:white;
   font-size: 20px;
+  background-color: black;
 }
 
 .contact {
-  padding:10px;
+  padding:30px;
+  font-size: 40px;
 }
