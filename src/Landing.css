@@ -1,18 +1,20 @@
 .innerBannerChunk {
-  height:20em;
+  min-height:20em;
   display: flex;
+  flex-wrap:wrap;
   background-color: white;
   color:black;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
   margin:0 auto;
   align-items: center;
+  justify-content: center;
 }
 
 .bannerChunkLeft {
   display: flex;
   flex-direction: column;
-  width:50%;
+  width:40%;
   padding:30px;
   min-height: 10em;
    -webkit-transition: background-color 1s, border-radius 1s;
@@ -30,7 +32,8 @@
 .bannerChunkRight {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
+  min-width:300px;
   min-height: 10em;
   padding:30px;
   -webkit-transition: background-color 1s, border-radius 1s;
@@ -72,6 +75,3 @@
   -o-transition: border-radius 1s;
   transition: border-radius 1s;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
