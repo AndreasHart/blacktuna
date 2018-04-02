@@ -8,6 +8,7 @@ import Quality from './Quality.js'
 import About from './About.js'
 import Explore from './Explore.js'
 import Footer from './Footer.js'
+import Three from './ThreeDBoards.js'
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
               <div>
                  <Route exact path="/" component={Landing}/>
                  <Route exact path="/about" component={About}/>
+                 <Route exact path="/player" component={Three}/>
                  <Route exact path="/boards" component={Boards}/>
                  <Route exact path="/explore" component={Explore}/>
                  <Route exact path="/quality" component={Quality}/>
