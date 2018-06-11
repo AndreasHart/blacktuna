@@ -28,6 +28,16 @@
   z-index: 10;
   border-radius: 75px;
   color:white;
+  .button {
+    border: 2px solid white;
+    color:white;
+    background-color: #77a3ea;
+    border-radius: 10px;
+    -webkit-transition: border-radius .1s;
+    -moz-transition: border-radius 1s;
+    -o-transition: border-radius 1s;
+    transition: border-radius 1s;
+    }
 }
 .bannerChunkRight {
   display: flex;
@@ -47,7 +57,16 @@
   border-radius: 75px;
   z-index: 10;
   color:white;
-
+  .button {
+    border: 2px solid white;
+    color:white;
+    background-color: #77a3ea;
+    border-radius: 10px;
+    -webkit-transition: border-radius .1s;
+    -moz-transition: border-radius 1s;
+    -o-transition: border-radius 1s;
+    transition: border-radius 1s;
+  }
 }
 .flex-center {
   display: flex;
@@ -65,12 +84,12 @@
   padding: 10px;
   margin-top:10px;
 }
-.button:hover {
+.button {
   border: 2px solid white;
   color:white;
   background-color: #77a3ea;
   border-radius: 10px;
-  -webkit-transition: border-radius 1s;
+  -webkit-transition: border-radius .1s;
   -moz-transition: border-radius 1s;
   -o-transition: border-radius 1s;
   transition: border-radius 1s;

@@ -1,0 +1,62 @@
+.range {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.inputRange {
+  width:400px;
+}
+.levels {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding:50px 10px 50px 10px ;
+}
+.block {
+  display: flex;
+  min-height: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+.recommended {
+  display: flex;
+  justify-content: center;
+}
+.lesson-title{
+  display: flex;
+  justify-content: space-around;
+}
+.volume {
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+}
+.lesson {
+  display: flex;
+  flex-direction: column;
+}
+.volumes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.from {
+  width:20%;
+}
+
+.to {
+  width: 20%;
+}
+.lesson-sell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.email {
+  display: flex;
+  padding: 20px 5px 20px 5px;
+  border:1 px solid grey;
+  text-align: center
+}

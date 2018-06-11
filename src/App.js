@@ -6,6 +6,7 @@ import Landing from './Landing.js'
 import Boards from './Boards.js'
 import Quality from './Quality.js'
 import About from './About.js'
+import SizeUp from './SizeUp.js'
 import Explore from './Explore.js'
 import Footer from './Footer.js'
 import Three from './ThreeDBoards.js'
@@ -20,6 +21,7 @@ class App extends Component {
               <div>
                  <Route exact path="/" component={Landing}/>
                  <Route exact path="/about" component={About}/>
+                 <Route exact path="/sizer" component={SizeUp}/>
                  <Route exact path="/player" component={Three}/>
                  <Route exact path="/boards" component={Boards}/>
                  <Route exact path="/explore" component={Explore}/>

@@ -21,6 +21,7 @@ class Landing extends Component {
                  height: '500px',
              }}
            >
+           <div>Boards</div>
           </ParallaxBanner>
           <Nav offset={485}/>
           <div className='innerBannerChunk'>
