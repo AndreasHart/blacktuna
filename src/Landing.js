@@ -26,10 +26,10 @@ class Landing extends Component {
           <Nav offset={485}/>
           <div className='innerBannerChunk'>
             <div className='bannerChunkLeft'>
-              <div className='flex-center title'>Quality Everything</div>
-              <div className='flex-center'>The best glass</div>
-              <div className='flex-center'>Eco friendly resin</div>
-              <Link to={'/quality'} className='flex-center button'>Learn about our process</Link>
+              <div className='flex-center title'>Volume Calculator</div>
+              <div className='flex-center'>Check what your reccommended board volume is</div>
+              <div className='flex-center'> According to our calculator</div>
+              <Link to={'/sizer'} className='flex-center button'>Calculate</Link>
             </div>
             <div className='bannerChunkRight'>
               <div className='flex-center title'>Passion for exploration</div>
